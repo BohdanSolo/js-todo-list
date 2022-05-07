@@ -45,7 +45,7 @@ input[type="text"] {
 
 button {
   margin-top: 10px;
-  width: 400px;
+  width: 100%;
   padding: 10px;
   cursor: pointer;
 }
@@ -102,6 +102,10 @@ input[type="checkbox"]:checked + label:before {
   margin: 0 15px 5px 5px;
 }
 
+.message {
+  margin-left: -4px;
+}
+
 .todo__item {
   display: flex;
   justify-content: space-between;
@@ -130,3 +134,11 @@ input[type="checkbox"]:checked + label:before {
 .todo__btn:hover {
   background-color: #087f78;
 }
+
+
+
+  @media (max-width: 490px) {
+    .message {
+      max-width: 200px;
+    }
+  }
