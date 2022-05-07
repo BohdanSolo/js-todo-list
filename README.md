@@ -1,6 +1,6 @@
 # JS Todo list
 
-##Links
+## Links
 
 - [Link to the project on gh-pages](https://calendar-react-solo.herokuapp.com/);
 
@@ -8,12 +8,12 @@
 
 
 
-##Stack
+## Stack
 - JavaScript;
 - HTML/CSS;
 
 
-##Application features:
+## Application features:
 - The logic of adding tasks;
 - The logic of removing task;
 - The logic of marking a task as completed;
