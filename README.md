@@ -2,7 +2,7 @@
 
 ## Links
 
-- [Link to the project on gh-pages](https://calendar-react-solo.herokuapp.com/);
+- [Link to the project on gh-pages](https://bohdansolo.github.io/js-todo-list/);
 
 - [Link to repository](https://github.com/BohdanSolo/js-todo-list/settings/pages);
 
