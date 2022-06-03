@@ -39,7 +39,7 @@ function displayMessage() {
   if (todoList.length === 0) todo.innerHTML = "";
   todoList.forEach((item, i) => {
     displayMessage += `
-    <li class="todo__item">
+    <li class="todo__item" >
     <div>
     <input type="checkbox" id="item__${i}" ${item.checked ? "checked" : ""}>
     <label for="item__${i}" class="${item.important ? "important" : ""}">${
@@ -93,14 +93,4 @@ todo.addEventListener("click", function (e) {
     e.target.closest('li').remove()
   }
 });
-
-let todoItems = document.querySelectorAll('.todo__item')
-for (let todo of todoItems) {
-  todo.addEventListener('click', function (e) {
-    if (e.target.classList.contains("todo__btn")) {
-        todo.remove()
-        localStorage.setItem("todo", JSON.stringify(todoList));
-      }
-    })
-  }
 
